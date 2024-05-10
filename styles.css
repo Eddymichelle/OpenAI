@@ -1,24 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 * {
     background-color: #002853;
+    padding: 4px;
+    margin: 1px;
+    box-sizing: border-box;
 }
-.heading {
+
+.navbar ul{
     color: white;
-    /* width: px; */
-    /* aspect-ratio: 1; */
-    /* border-radius: 100px; */
-    /* top: 10px; */
-    /* right: 10px; */
+    list-style-type: none;
     padding: 40px;
     margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
 }
-.sign {
+
+.bold {
+    font-size: large;
+   font-weight: bold;
+}
+
+.signin {
+    list-style-type: none;
+}
+
+.signup {
+    background-color: #FF4820;
+    width: 120px;
+    height: 50px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.text-head {
+    display: flex;
+    font-size: 62px;
+    background-image: linear-gradient(to left, #F49867, #AE67FA);
+    -webkit-background-clip: text; 
+    color: transparent;
+}
+
+.img {
+    background-image: url("../Illustration.svg");
+    display: flex;
+    background-repeat: no-repeat;
+    align-items: flex-end;
+}
+
+.text {
+    display: flex;
+    color: #81AFDD;
+    line-height: 27.32px;
+    font-weight: 400px;
+    font-size: 20px;
+    width: 554px;
+    height: 227px;
+    left: 138px;
+    justify-content: flex-end;
+}
+
+.form {
+    display: flex;
+}
+
+.mail {
+    color: #3D6184;
+    background-color: #052D56;
+    height: 60px;
+    width: 350px;
+    text-align: start;
+    font-size: 15px;
+    border: none;
+    margin-right: 0px;
+}
+
+.btn {
+    color: #FFFFFF;
+    background-color: #FF4820;
+    height: 60px;
+    width: 120px;
+    border: none;
+    cursor: pointer;
+    margin-left: 0px;
+}
+
+
+
+
+/* .sign {
     display: flex;
     background-color: red;
     height: 20px;
     width: 50px;
     position: absolute;
-    /* aspect-ratio: 1; */
-    /* border-radius: 100px; */
+    aspect-ratio: 1;
+    border-radius: 100px;
     top: 50px;
     right: 100px;
     color: white;
@@ -28,4 +107,4 @@
     justify-content: center;
     
     
-}
+} */
