@@ -1,79 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 * {
-    background-color: #002853;
+    background-color:#040C18 ;
     padding: 0px;
     margin: 0px;
-    margin-left: 20px;
     box-sizing: border-box;
 }
 
-.bold {
-    font-size: large;
-   font-weight: bold;
+body {
+    padding: 30px;
+    margin: 30px;
+    font-family: Manrope;
 }
 
-.navbar ul{
+.nav-head {
     color: white;
-    list-style-type: none;
-    padding: 40px;
-    margin: 10px;
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-around;
-    position: sticky;
+    font-weight: bold;
+    font-size: larger;
 }
 
-.signing {
+.navbar {
     display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.navlist {
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 .signin {
-    display: flex;
-    list-style-type: none;
+   color: white;
 }
 
 .signup {
+    color: #FFFFFF;
     background-color: #FF4820;
-    width: 120px;
-    height: 50px;
-    color: white;
+    width: 60px;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
+}
+
+.auth--container {
+    margin-left: auto;
 }
 
 .section {
     display: flex;
 }
 
-
+.banner {
+    border: 2px solid red;
+}
 .section h1 {
     font-size: 62px;
     line-height: 75px;
     width: 614px;
     margin-top: 80px;
-    margin-left: 80px;
     margin-bottom: 50px;
-    background-image: linear-gradient(to left, #F49867, #AE67FA);
-    -webkit-background-clip: text; 
-    color: transparent;
+    /* background-image: linear-gradient(to left, #F49867, #AE67FA); */
+    /* -webkit-background-clip: text;  */
+    color: #F49867;
 }
 
 .section p {
     color: #81AFDD;
     line-height: 27.32px;
     font-size: 20px;
-    width: 70%;
-    margin-left: 80px;
-}
+} 
 
 .section img {
     background-image: url("../Illustration.svg");
-    height: 701.59px;
-    width: 667.41px;
-    margin-top: 50px;
-    margin-left: 40px;
 }
 
 .form {
@@ -81,15 +82,15 @@
 } 
 
 .mail {
-    color: #3D6184;
+    color: white;
     background-color: #052D56;
     height: 60px;
-    width: 350px;
+    width: 60%;
     text-align: start;
     font-size: 15px;
     border: none;
-    margin-left: 40px;
     margin-top: 30px;
+    text-align: center;
 }
 
 .btn {
@@ -98,23 +99,23 @@
     height: 60px;
     width: 120px;
     border: none;
-    margin-left: 0px;
     margin-top: 30px;
     cursor: pointer;
 }
 
+.group {
+    margin-bottom: 20px;
+}
+
 .footer-logo {
-    /* background-color: #040C18; */
-    width: 670.56px;
-    height: 24.15px;
-    margin-left: 300px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
 }
 
 .section-two {
+    background-color:#0f4881;
     display: flex;
-    /* position: absolute; */
-    margin-top: 100px;
-    margin-left: 120px;
     padding: 40px;
     border-style: ridge;
     border-width: 1px;
@@ -125,14 +126,13 @@
 
 .what-is {
     color: #FFFFFF;
-    width: 150px;
-    height: 75px;
+    height: 0px;
 }
 
 .gp-text {
     color: #81AFDD;
     line-height: 30px;
-    width: 600px;
+    width: 100%;
     height: 92px;
     margin-left: 100px;
 }
@@ -144,12 +144,15 @@
     line-height: 45px;
     width: 2000px;
     margin-top: 50px;
-    margin-right: 1000px;
 }
 
 .explore {
     color: #FF8A71;
     width: 143px;
+}
+
+.cke {
+    display: flex;
 }
 
 .target {
@@ -161,13 +164,28 @@
 }
 
 .sec-three h2 {
-    display: flex;
     background-image: linear-gradient(to left, #F49867, #AE67FA);
     -webkit-background-clip: text; 
     color: transparent;
     margin-top: 200px;
-    margin-left: 80px;
     line-height: 45px;
     width: 350px;
     font-size: 34px;
+}
+
+.request {
+    color: #FF8A71;
+    margin-top: 40px;
+}
+
+.target-one,
+.target-two,
+.target-three,
+.target-four {
+    color: white;
+    /* display: flex; */
+}
+.target {
+    display: flex;
+    justify-content: flex-end;
 }
