@@ -221,19 +221,16 @@ li a {
     margin-top: 15%;
     /* gap: 100px; */
 }
-
 .future-header {
     color: #AE67FA;
     font-size: 34px;
     width: 55%;
     line-height: 40px;
 }
-
 .request {
     color: #FF8A71;
     margin-top: 50px;
 }
-
 .cumbread5 {
     background-color: #F49867;
     width: 38px;
@@ -241,35 +238,28 @@ li a {
     /* margin-right: 100%; */
     margin-bottom: 5px;
 }
-
 .target-head {
     color: #FFFFFF;
     /* width: 100%; */
     /* align-items: center; */
 }
-
 .become {
     margin-top: 40px;
 }
-
 .message {
     margin-top: 40px;
 }
-
 .law {
     margin-top: 40px;
 }
-
 .target-text {
     color: #81AFDD;
 }
-
 .imp-text {
     margin-left: 25%;
     width: 75%;
     margin-bottom: 30px;
 }
-
 .beco-text {
     margin-left: 25%;
     margin-bottom: 30px;
@@ -284,4 +274,72 @@ li a {
     margin-left: 25%;
     margin-bottom: 30px;
     width: 75%;
+}
+
+.feature-section {
+    display: flex;
+    gap: 40px;
+}
+
+.features {
+    margin-top: 18%;
+}
+
+.req-early {
+    color: #71E5FF;
+    margin-bottom: 10px;
+}
+
+.feature-header {
+    color: #AE67FA;
+    width: 38%;
+    margin-bottom: 20px;
+}
+
+.feature-text {
+    color: #81AFDD;
+    width: 60%;
+    margin-bottom: 40px;
+}
+
+.feat-req {
+    color: #FF8A71;
+}
+
+.border-container {
+    display: flex;
+    background-color: #AE67FA;
+    color: white;
+    padding: 30px;
+    margin-top: 100px;
+    border-radius: 7px;
+}
+
+.text-container {
+    background-color: #AE67FA;
+}
+
+.p-container1 {
+    color: #000000;
+    background-color: #AE67FA;
+    font-size: 12px;
+}
+
+
+.p-container2 {
+    color: #000000;
+    background-color: #AE67FA;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.btn-container {
+    color: #FFFFFF;
+    background-color: black;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    margin-left: auto;
+    font-size: 18px;
+    cursor: pointer;
 }
