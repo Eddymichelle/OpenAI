@@ -147,18 +147,20 @@ li a {
 }
 .tiny-text {
     color: #FF8A71;
-    width: 100px;
+    width: 50%;
     margin-top: 10%;
-    margin-left: 80%;
+    margin-left: 70%;
 }
 
 .note {
     display: flex;
+    align-items: flex-start;
+    margin-top: 50px;
 }
 .cumbread2 {
     width: 38px;
     height: 3px;
-    margin-top: 30%;
+    /* margin-top: 30%; */
     background-color: #F49867;
 }
 .chatbots {
@@ -171,7 +173,7 @@ li a {
     width: 100%;
     font-size: 16px;
     line-height: 30px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 .cumbread3 {
     width: 38px;
@@ -182,16 +184,16 @@ li a {
 }
 .kn-base {
     color: #FFFFFF;
-    width: 100%;
+    width: 60%;
     margin-top: 15px;
     margin-left: 100px;
 }
 .base-text {
     color: #81AFDD;
-    width: 55%;
+    width: 80%;
     font-size: 16px;
     line-height: 30px;
-    margin-top: 20px;
+    margin-top: 45px;
     margin-left: 100px;
 }
 .cumbread4{
@@ -343,3 +345,66 @@ li a {
     font-size: 18px;
     cursor: pointer;
 }
+
+.grid {
+    display: grid;
+    /* background-color: #040C18; */
+}
+
+.grid-header {
+    color: #F49867;
+    margin-top: 90px;
+    width: 20%;
+}
+
+.grid-img {
+    width: 400px;
+    height: 280px;
+}
+
+.grid-text {
+    background-color: #042C54;
+    width: 400px;
+    height: 400px;
+}
+
+.p-tag {
+    background-color: #042C54;
+    color: white;
+    padding: 20px;
+}
+
+.sub-head {
+    color: white;
+    background-color: #042C54;
+    padding: 20px;
+}
+
+.article {
+    background-color: #042C54;
+    color: white;
+    padding: 20px;
+    margin-top: 40%;
+}
+
+.footer-header {
+    color: #F49867;
+    text-align: center;
+    width: 40%;
+    margin-top: 15%;
+    margin-left: 30%;
+    font-size: 40px;
+}
+.btn-demo {
+    color: #FFFFFF;
+    width: 14%;
+    height: 15%;
+    padding: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 42%;
+}
+
+
+
